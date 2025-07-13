@@ -123,7 +123,7 @@ const Home = () => {
 												checked={item?.itemCompletionStatus}
 												onChange={() => onChangeCheckbox(checklist?.id as number, item?.id as number)}
 											/>
-											{item?.name} {item?.itemCompletionStatus ? "(Selesai)" : ""}
+											{item?.name}
 										</div>
 									);
 								})}
